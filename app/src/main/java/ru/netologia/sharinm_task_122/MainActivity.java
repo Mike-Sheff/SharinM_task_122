@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         BackwardsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // if (isFinishing())
                 finish();
             }
         });
